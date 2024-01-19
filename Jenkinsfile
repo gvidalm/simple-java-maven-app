@@ -1,11 +1,12 @@
-pipeline {
+spipeline {
     agent {
         docker { image 'node:20.11.0-alpine3.19' }
     }
     stages {
-        stage('Test') {
+        stage('Version') {
             steps {
                 sh 'node --version'
+                ls -l
             }
         }
     }

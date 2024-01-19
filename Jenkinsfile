@@ -6,7 +6,7 @@ pipeline {
         stage('Version') {
             steps {
                 sh 'node --version'
-                ls -l
+                sh ls -l
             }
         }
     }

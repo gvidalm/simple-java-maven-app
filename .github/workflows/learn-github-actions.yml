@@ -14,5 +14,6 @@ jobs:
       - name: Docker Metadata action
         # You may pin to the exact commit or the version.
         # uses: docker/metadata-action@dbef88086f6cef02e264edb7dbf63250c17cef6c
-        uses: docker/metadata-action@v5.5.0          
+        uses: docker/metadata-action@v5.5.0      
+      - run: docker --version
       
